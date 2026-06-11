@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Agent</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="logo">🤖 AI Agent</div>
+
+    <button class="new-chat" onclick="newChat()">
+        + New Chat
+    </button>
+</div>
+
+<div class="main">
+
+    <div class="header">
+        AI Assistant
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="welcome">
+            <h1>Welcome 👋</h1>
+            <p>Ask anything...</p>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="messageInput" placeholder="Ask anything...">
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
